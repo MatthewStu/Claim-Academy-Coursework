@@ -5,21 +5,21 @@ public class changeMaker {
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
 		int quarters, dimes, nickles, cents;
-		int whatsLeft, total;
+		int change, total;
 		
 		System.out.println("How many cents do you have? ");
 		total = keyboard.nextInt();
 		
 		quarters = total / 25;
-		whatsLeft = total % 25;
+		change = total % 25;
 		
-		dimes = whatsLeft / 10;
-		whatsLeft = whatsLeft % 10;
+		dimes = change / 10;
+		change = change % 10;
 		
-		nickles = whatsLeft / 5;
-		whatsLeft = whatsLeft % 5;
+		nickles = change / 5;
+		change = change % 5;
 		
-		cents = whatsLeft;
+		cents = change;
 		
 		System.out.println();
 		System.out.println("From " + total + " cents you get ");
@@ -32,3 +32,4 @@ public class changeMaker {
 	}
 
 }
+
