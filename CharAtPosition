@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class AgeClass {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		char[] name = new char[10];
+		
+		//To take a string input from user.
+		System.out.println("Enter your name: ");
+		String str = sc.nextLine();
+		
+		//Convert string into array.
+		name = str.toCharArray();
+		
+		for(int i = 0; i < str.length(); i++)
+		{
+			if(i % 2 == 0) {
+			System.out.println("The letter at "+i+" position is "+Character.toString(name[i]).toUpperCase());
+			}
+			else {
+			System.out.println("The letter at "+i+" position is "+Character.toString(name[i]).toLowerCase());
+		}
+		
+
+	}
+
+}
+	
+}
