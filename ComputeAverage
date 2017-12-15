@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class ComputeAverage {
+
+	public static void main(String[] args) {
+		
+		Scanner loser = new Scanner(System.in);
+		
+		System.out.println("Enter three numbers: ");
+		int widow = loser.nextInt();
+		int hanzo = loser.nextInt();
+		int tracer = loser.nextInt();
+		
+		int average = (widow + hanzo + tracer) / 3;
+		
+		System.out.println("The average of " + widow + " , " + hanzo + " and " + tracer + " is " + average );
+	}
+
+}
