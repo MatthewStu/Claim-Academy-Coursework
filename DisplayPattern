@@ -1,0 +1,13 @@
+
+
+public class DisplayAPattern {
+
+	public static void main(String[] args) {
+		System.out.println("    A      H    H      O O O    Y   Y");
+		System.out.println("   A A     H    H     O     O    Y Y ");
+		System.out.println("  AAAAA    HHHHHH    O      O     Y ");
+		System.out.println(" A     A   H    H    O      O     Y ");
+		System.out.println("A       A  H    H     O O O       Y ");
+	}
+
+}
