@@ -1,0 +1,10 @@
+
+public class ComputingExpression {
+
+	public static void main(String[] args) {
+		System.out.print("The answer is: ");
+		System.out.println((8.6 * 3.8 - 1.7 * 9)/(87.2 - 9.1));
+
+	}
+
+}
