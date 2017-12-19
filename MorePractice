@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class MessingAround {
+	public static void main(String[] args) {
+		int sum = 0;
+		double average;
+		int downtown = 1;
+		int uptown = 100;
+		
+		for(int number = downtown; number <= uptown; ++number) {
+			sum += number;
+		}
+		
+		average = sum/uptown;
+		
+		System.out.println("The sum is " + sum);
+		System.out.println("The average is " + average);
+	}
+}
